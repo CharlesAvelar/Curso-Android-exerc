@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.android.primeirossocorros.ParadaCardiaca">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fundo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView"
+        android:theme="@android:style/ButtonBar" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#e6ff02"
+        android:text="- Deite a vítima de costas e verifique o pulso dela- Inicie os procedimentos de reanimação: coloque as mãos entrelaçadas no centro do tórax e comprima-o entre 4 e 5 cm, repetindo o procedimento 100 vezes por minuto até o socorro chegar. A cada 30 vezes, verifique se há pulso e continue
+- Sem fazer nenhuma manobra de reanimação, a cada minuto se perde 10% da chance de reanimar a vítima. Se a reanimação não for feita em 10 minutos, a pessoa tem chances muito reduzidas de se salvar. É importante identificar a parada e começar imediatamente a manobra"
+        android:id="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:textSize="24dp"
+        />
+
+</RelativeLayout>

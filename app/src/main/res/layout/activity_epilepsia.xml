@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.android.primeirossocorros.Epilepsia">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fundo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView"
+        android:theme="@android:style/ButtonBar" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#e6ff02"
+        android:text="Colocar a vítima de lado com a cabeça para baixo, para respirar melhor e evitar se engasgar com a saliva ou vômito;
+Colocar um apoio em baixo da cabeça, para prevenir que o indivíduo bata a cabeça no chão e cause algum traumatismo; Desapertar roupas muito apertadas,
+Não segurar os braços ou pernas, para evitar roturas musculares ou fraturas nem se machucar devido aos movimentos descontrolados;
+Retirar objetos que estejam próximos e possam cair em cima do paciente;
+Não colocar as mãos nem qualquer objeto na boca do paciente, pois pode morder os dedos ou se engasgar;
+Não dar de beber nem comer pois o individuo pode asfixiar;
+Contar o tempo que dura a crise de epilepsia."
+        android:id="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:textSize="20dp"
+        />
+
+
+</RelativeLayout>

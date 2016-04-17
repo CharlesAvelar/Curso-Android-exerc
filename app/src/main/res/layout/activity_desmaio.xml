@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.android.primeirossocorros.desmaio">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fundo"
+        android:id="@+id/imageView"
+        android:theme="@android:style/ButtonBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#e6ff02"
+        android:text="
+ Como agir:
+- Se a vítima  ainda não desmaiou, sente-a em uma cadeira e diga a ela para baixar a cabeça abaixo dos joelhos e esperar a tontura passar
+- Se a pessoa já desmaiou, deite-a no chão, elevando as pernas em relação ao resto do corpo para facilitar a circulação de sangue para o cérebro
+- Afrouxe as roupas da vítima e ventile o ambiente
+- Quando ela recuperar a consciência ofereça um pouco de água com açúcar
+- Se a ânsia de vômito continuar, vire-a de lado"
+        android:id="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>
